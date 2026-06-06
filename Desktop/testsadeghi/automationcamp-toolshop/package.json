@@ -1,0 +1,18 @@
+{
+  "name": "toolshop-port",
+  "version": "1.1.0",
+  "description": "Toolshop - E-commerce app for software testing practice (React + Express + JSON Server)",
+  "scripts": {
+    "start": "concurrently --names \"BACKEND,FRONTEND\" --prefix-colors \"cyan,magenta\" \"npm run backend\" \"npm run frontend\"",
+    "reset-and-start": "npm run reset-db && npm start",
+    "backend": "npm start --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "reset-db": "node backend/reset-db.js",
+    "install:all": "npm install && npm install --prefix backend && npm install --prefix frontend",
+    "setup": "npm run install:all"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "cypress": "^15.16.0"
+  }
+}

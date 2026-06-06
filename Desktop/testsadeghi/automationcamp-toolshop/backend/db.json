@@ -1,0 +1,1827 @@
+{
+  "users": [
+    {
+      "id": "user-admin-1",
+      "first_name": "Admin",
+      "last_name": "User",
+      "email": "admin@automationcamp.org",
+      "password": "$2a$10$K/2s8adAPIRGXX0X6N.gWemVAxRNVFwgeJjwrvtHYou1KQPQL5R6m",
+      "role": "admin",
+      "enabled": true,
+      "phone": "+1-555-000-0001",
+      "dob": "1980-01-01",
+      "street": "123 Admin Street",
+      "house_number": "1",
+      "city": "Admin City",
+      "state": "CA",
+      "country": "US",
+      "postal_code": "90001",
+      "failed_login_attempts": 0,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "user-cust-1",
+      "first_name": "Jane",
+      "last_name": "Doe",
+      "email": "customer@automationcamp.org",
+      "password": "$2a$10$bA/NTQeCDJERmvRckwSMGO6IGuVNI3spRZOujQLgQWgc5dN32oY3e",
+      "role": "user",
+      "enabled": true,
+      "phone": "+1-555-100-0001",
+      "dob": "1990-05-15",
+      "street": "456 Main Street",
+      "house_number": "42",
+      "city": "Springfield",
+      "state": "IL",
+      "country": "US",
+      "postal_code": "62701",
+      "failed_login_attempts": 3,
+      "created_at": "2024-01-05T00:00:00Z"
+    },
+    {
+      "id": "user-cust-2",
+      "first_name": "John",
+      "last_name": "Smith",
+      "email": "customer2@automationcamp.org",
+      "password": "$2a$10$/5z7L.ptH/tcRg7T29qeFOR5h3wXe.V4ziOSOyFfX.KmUpGXLK0Mm",
+      "role": "user",
+      "enabled": true,
+      "phone": "+1-555-200-0002",
+      "dob": "1985-08-22",
+      "street": "789 Oak Avenue",
+      "house_number": "7",
+      "city": "Portland",
+      "state": "OR",
+      "country": "US",
+      "postal_code": "97201",
+      "failed_login_attempts": 0,
+      "created_at": "2024-01-10T00:00:00Z"
+    },
+    {
+      "id": "user-cust-3",
+      "first_name": "BobBobBob",
+      "last_name": "Wilson",
+      "email": "customer3@automationcamp.org",
+      "password": "$2a$10$kY3BD/EQGSzY2JDs5uqwce78.4QNVs11ilX2KToTdYyF/ION.EgbO",
+      "role": "user",
+      "enabled": false,
+      "phone": "+1-555-300-0003",
+      "dob": "1978-11-30",
+      "street": "321 Pine Road",
+      "house_number": "15",
+      "city": "Austin",
+      "state": "TX",
+      "country": "US",
+      "postal_code": "73301",
+      "failed_login_attempts": 0,
+      "created_at": "2024-01-15T00:00:00Z"
+    },
+    {
+      "id": "user-300f6934-1020-4eb6-a2a8-05e41e7caf6e",
+      "first_name": "Ali",
+      "last_name": "Alavi",
+      "email": "user1780414738567@example.com",
+      "password": "$2a$10$bN17IKx3MzqaD3MYhCDt4uQzye83R9D7nvtmaFwQlhiRUF7C.eJfW",
+      "role": "user",
+      "enabled": true,
+      "phone": "09121234567",
+      "dob": "1990-01-01",
+      "street": "",
+      "house_number": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "postal_code": "",
+      "failed_login_attempts": 0,
+      "created_at": "2026-06-02T15:39:01.833Z"
+    }
+  ],
+  "brands": [
+    {
+      "id": "brand-1",
+      "name": "ForgeFlex",
+      "slug": "forgeflex",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "brand-2",
+      "name": "PowerMax",
+      "slug": "powermax",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "brand-3",
+      "name": "BuildPro",
+      "slug": "buildpro",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "brand-4",
+      "name": "MeasurePro",
+      "slug": "measurepro",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "brand-5",
+      "name": "GripMaster",
+      "slug": "gripmaster",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "brand-cab00731-e754-4f5c-91d9-ef2c7ba68e9d",
+      "name": "Brand 1780417649739",
+      "slug": "brand-1780417649739",
+      "created_at": "2026-06-02T16:27:32.935Z"
+    },
+    {
+      "id": "brand-67fd7ef2-77c1-4540-a451-c1ef2b182cb1",
+      "name": "Brand_1780475278807",
+      "slug": "brand-1780475278807",
+      "created_at": "2026-06-03T08:27:58.826Z"
+    },
+    {
+      "id": "brand-9b58e914-d6c0-4070-a934-90ab473a3e35",
+      "name": "Brand_1780491657083",
+      "slug": "brand-1780491657083",
+      "created_at": "2026-06-03T13:00:57.095Z"
+    },
+    {
+      "id": "brand-068d35c6-f0d8-45be-a6ca-662c34f21745",
+      "name": "Brand 1780491674450",
+      "slug": "brand-1780491674450",
+      "created_at": "2026-06-03T13:01:20.040Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Hand Tools",
+      "slug": "hand-tools",
+      "parent_id": null,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "cat-2",
+      "name": "Hammers",
+      "slug": "hammers",
+      "parent_id": "cat-1",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "cat-3",
+      "name": "Pliers",
+      "slug": "pliers",
+      "parent_id": "cat-1",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "cat-4",
+      "name": "Screwdrivers",
+      "slug": "screwdrivers",
+      "parent_id": "cat-1",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "cat-5",
+      "name": "Chisels",
+      "slug": "chisels",
+      "parent_id": "cat-1",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "cat-6",
+      "name": "Power Tools",
+      "slug": "power-tools",
+      "parent_id": null,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "cat-7",
+      "name": "Drills",
+      "slug": "drills",
+      "parent_id": "cat-6",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "cat-8",
+      "name": "Saws",
+      "slug": "saws",
+      "parent_id": "cat-6",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "cat-9",
+      "name": "Grinders",
+      "slug": "grinders",
+      "parent_id": "cat-6",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "cat-10",
+      "name": "Sanders",
+      "slug": "sanders",
+      "parent_id": "cat-6",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "cat-11",
+      "name": "Storage",
+      "slug": "storage",
+      "parent_id": null,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "cat-12",
+      "name": "Tool Boxes",
+      "slug": "tool-boxes",
+      "parent_id": "cat-11",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "cat-13",
+      "name": "Tool Bags",
+      "slug": "tool-bags",
+      "parent_id": "cat-11",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "cat-14",
+      "name": "Measuring & Layout",
+      "slug": "measuring-layout",
+      "parent_id": null,
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "cat-15",
+      "name": "Levels",
+      "slug": "levels",
+      "parent_id": "cat-14",
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "cat-16",
+      "name": "Tape Measures",
+      "slug": "tape-measures",
+      "parent_id": "cat-14",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-9",
+      "name": "Adjustable Wrench 10\"",
+      "description": "10-inch adjustable wrench with wide jaw opening of up to 32mm. Smooth jaw adjustment mechanism. Drop-forged chrome vanadium steel for durability.",
+      "stock": 55,
+      "price": 16.99,
+      "brand_id": "brand-1",
+      "category_id": "cat-1",
+      "is_location_offer": false,
+      "is_rental": false,
+      "co2_rating": "B",
+      "image": "/assets/img/products/wrench01.jpeg",
+      "specs": [
+        {
+          "name": "Length",
+          "value": "10",
+          "unit": "\""
+        },
+        {
+          "name": "Max Jaw Opening",
+          "value": "32",
+          "unit": "mm"
+        },
+        {
+          "name": "Material",
+          "value": "Chrome Vanadium",
+          "unit": ""
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-44ac4223-8aaa-4001-9780-2a3dd7002842",
+      "name": "Admin Product 1780473308780",
+      "description": "Testing Admin API",
+      "stock": 0,
+      "price": 99.99,
+      "brand_id": null,
+      "category_id": null,
+      "is_rental": false,
+      "is_location_offer": false,
+      "co2_rating": "C",
+      "image": "https://via.placeholder.com/150",
+      "specs": [],
+      "created_at": "2026-06-03T07:55:08.804Z"
+    },
+    {
+      "id": "prod-1a41088f-53dc-4dc4-bfbe-b2791f485342",
+      "name": "Admin Product 1780473326124",
+      "description": "Testing Admin API",
+      "stock": 0,
+      "price": 99.99,
+      "brand_id": null,
+      "category_id": null,
+      "is_rental": false,
+      "is_location_offer": false,
+      "co2_rating": "C",
+      "image": "https://via.placeholder.com/150",
+      "specs": [],
+      "created_at": "2026-06-03T07:55:26.140Z"
+    },
+    {
+      "id": "prod-1857c7ea-2e56-4dea-b29a-0ddb63791f2f",
+      "name": "Admin Product 1780491662776",
+      "description": "Testing Admin API",
+      "stock": 0,
+      "price": 99.99,
+      "brand_id": null,
+      "category_id": null,
+      "is_rental": false,
+      "is_location_offer": false,
+      "co2_rating": "C",
+      "image": "https://via.placeholder.com/150",
+      "specs": [],
+      "created_at": "2026-06-03T13:01:02.791Z"
+    },
+    {
+      "id": "prod-15",
+      "name": "Angle Grinder 115mm 850W",
+      "description": "850W angle grinder with 115mm disc and tool-free disc changing. Side handle for two-handed operation. Suitable for cutting, grinding, and polishing metal and stone.",
+      "stock": 22,
+      "price": 59.99,
+      "brand_id": "brand-2",
+      "category_id": "cat-9",
+      "is_location_offer": false,
+      "is_rental": true,
+      "co2_rating": "D",
+      "image": "/assets/img/products/sander03.jpeg",
+      "specs": [
+        {
+          "name": "Power",
+          "value": "850",
+          "unit": "W"
+        },
+        {
+          "name": "Disc Diameter",
+          "value": "115",
+          "unit": "mm"
+        },
+        {
+          "name": "No-load Speed",
+          "value": "11000",
+          "unit": "rpm"
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-2",
+      "name": "Ball Peen Hammer 12oz",
+      "description": "Professional-grade 12oz ball peen hammer with a hardened steel head and hickory wood handle. Ideal for metalworking, shaping, and striking chisels.",
+      "stock": 35,
+      "price": 19.99,
+      "brand_id": "brand-1",
+      "category_id": "cat-2",
+      "is_location_offer": false,
+      "is_rental": false,
+      "co2_rating": "C",
+      "image": "/assets/img/products/hammer02.jpeg",
+      "specs": [
+        {
+          "name": "Weight",
+          "value": "12",
+          "unit": "oz"
+        },
+        {
+          "name": "Handle Length",
+          "value": "305",
+          "unit": "mm"
+        },
+        {
+          "name": "Material",
+          "value": "Hickory",
+          "unit": ""
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-13",
+      "name": "Circular Saw 7-1/4\"",
+      "description": "Powerful 1800W circular saw with 7-1/4\" blade and 0-56° bevel adjustment. Includes a carbide-tipped 24-tooth blade. Dust blower keeps cutting line clear.",
+      "stock": 12,
+      "price": 129.99,
+      "brand_id": "brand-2",
+      "category_id": "cat-8",
+      "is_location_offer": false,
+      "is_rental": true,
+      "co2_rating": "E",
+      "image": "/assets/img/products/saw01.jpeg",
+      "specs": [
+        {
+          "name": "Power",
+          "value": "1800",
+          "unit": "W"
+        },
+        {
+          "name": "Blade Diameter",
+          "value": "7-1/4",
+          "unit": "\""
+        },
+        {
+          "name": "Max Cutting Depth (90°)",
+          "value": "65",
+          "unit": "mm"
+        },
+        {
+          "name": "Bevel Angle",
+          "value": "0-56",
+          "unit": "°"
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-1",
+      "name": "Claw Hammer 16oz",
+      "description": "A versatile 16oz claw hammer with fiberglass handle for reduced vibration. Perfect for framing, nailing, and demolition work. The curved claw allows easy nail removal.",
+      "stock": 50,
+      "price": 12.99,
+      "brand_id": "brand-1",
+      "category_id": "cat-2",
+      "is_location_offer": false,
+      "is_rental": false,
+      "co2_rating": "B",
+      "image": "/assets/img/products/hammer01.jpeg",
+      "specs": [
+        {
+          "name": "Weight",
+          "value": "16",
+          "unit": "oz"
+        },
+        {
+          "name": "Handle Length",
+          "value": "340",
+          "unit": "mm"
+        },
+        {
+          "name": "Material",
+          "value": "Fiberglass",
+          "unit": ""
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-5",
+      "name": "Combination Pliers 8\"",
+      "description": "Heavy-duty 8\" combination pliers for gripping, bending, and cutting wire. Features ergonomic handles with soft-grip inserts for maximum comfort.",
+      "stock": 45,
+      "price": 14.99,
+      "brand_id": "brand-5",
+      "category_id": "cat-3",
+      "is_location_offer": false,
+      "is_rental": false,
+      "co2_rating": "B",
+      "image": "/assets/img/products/pliers02.jpeg",
+      "specs": [
+        {
+          "name": "Length",
+          "value": "8",
+          "unit": "\""
+        },
+        {
+          "name": "Material",
+          "value": "Drop Forged Steel",
+          "unit": ""
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-11",
+      "name": "Cordless Drill 18V",
+      "description": "18V cordless drill/driver with 13mm keyless chuck and 2-speed gearbox. Includes 2x 2.0Ah lithium batteries and charger. 21 torque settings for precision control.",
+      "stock": 20,
+      "price": 89.99,
+      "brand_id": "brand-2",
+      "category_id": "cat-7",
+      "is_location_offer": false,
+      "is_rental": false,
+      "co2_rating": "C",
+      "image": "/assets/img/products/drill01.jpeg",
+      "specs": [
+        {
+          "name": "Voltage",
+          "value": "18",
+          "unit": "V"
+        },
+        {
+          "name": "Chuck",
+          "value": "13",
+          "unit": "mm"
+        },
+        {
+          "name": "Torque Settings",
+          "value": "21",
+          "unit": ""
+        },
+        {
+          "name": "Battery",
+          "value": "2x 2.0Ah Li-Ion",
+          "unit": ""
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-21",
+      "name": "Digital Vernier Caliper",
+      "description": "150mm digital vernier caliper with large LCD display. Measures internal, external, depth, and step dimensions. Resolution 0.01mm. Auto power-off. Stainless steel construction.",
+      "stock": 50,
+      "price": 34.99,
+      "brand_id": "brand-4",
+      "category_id": "cat-14",
+      "is_location_offer": false,
+      "is_rental": false,
+      "co2_rating": "A",
+      "image": "/assets/img/products/measure01.jpeg",
+      "specs": [
+        {
+          "name": "Range",
+          "value": "0-150",
+          "unit": "mm"
+        },
+        {
+          "name": "Resolution",
+          "value": "0.01",
+          "unit": "mm"
+        },
+        {
+          "name": "Accuracy",
+          "value": "±0.02",
+          "unit": "mm"
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-7",
+      "name": "Flathead Screwdriver Set (5pc)",
+      "description": "5-piece flathead screwdriver set with blade widths from 3mm to 10mm. Hardened steel blades with precision tips. Great for electronics and general repair.",
+      "stock": 70,
+      "price": 10.99,
+      "brand_id": "brand-5",
+      "category_id": "cat-4",
+      "is_location_offer": false,
+      "is_rental": false,
+      "co2_rating": "A",
+      "image": "/assets/img/products/screwdriver02.jpeg",
+      "specs": [
+        {
+          "name": "Pieces",
+          "value": "5",
+          "unit": ""
+        },
+        {
+          "name": "Blade Widths",
+          "value": "3-10",
+          "unit": "mm"
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-12",
+      "name": "Hammer Drill 800W",
+      "description": "Corded 800W hammer drill with variable speed trigger and depth stop. Ideal for drilling into concrete, brick, and masonry. SDS+ chuck for easy bit changes.",
+      "stock": 15,
+      "price": 109.99,
+      "brand_id": "brand-2",
+      "category_id": "cat-7",
+      "is_location_offer": false,
+      "is_rental": true,
+      "co2_rating": "D",
+      "image": "/assets/img/products/drill02.jpeg",
+      "specs": [
+        {
+          "name": "Power",
+          "value": "800",
+          "unit": "W"
+        },
+        {
+          "name": "Chuck Type",
+          "value": "SDS+",
+          "unit": ""
+        },
+        {
+          "name": "Max Drilling Diameter (Concrete)",
+          "value": "26",
+          "unit": "mm"
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-18",
+      "name": "Heavy Duty Tool Bag 18\"",
+      "description": "18-inch canvas tool bag with reinforced bottom and 34 interior/exterior pockets. Rubber feet for stability. Suitable for electricians, plumbers, and general tradespeople.",
+      "stock": 45,
+      "price": 34.99,
+      "brand_id": "brand-3",
+      "category_id": "cat-13",
+      "is_location_offer": false,
+      "is_rental": false,
+      "co2_rating": "B",
+      "image": "/assets/img/products/toolbelt01.jpeg",
+      "specs": [
+        {
+          "name": "Size",
+          "value": "18",
+          "unit": "\""
+        },
+        {
+          "name": "Pockets",
+          "value": "34",
+          "unit": ""
+        },
+        {
+          "name": "Material",
+          "value": "Canvas",
+          "unit": ""
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-14",
+      "name": "Jigsaw 600W",
+      "description": "Variable speed 600W jigsaw with pendulum action for faster cuts. Accepts T-shank blades. Orbital action for cutting curves in wood, metal, and plastic.",
+      "stock": 18,
+      "price": 79.99,
+      "brand_id": "brand-2",
+      "category_id": "cat-8",
+      "is_location_offer": false,
+      "is_rental": false,
+      "co2_rating": "D",
+      "image": "/assets/img/products/saw02.jpeg",
+      "specs": [
+        {
+          "name": "Power",
+          "value": "600",
+          "unit": "W"
+        },
+        {
+          "name": "Stroke Length",
+          "value": "26",
+          "unit": "mm"
+        },
+        {
+          "name": "Blade Type",
+          "value": "T-Shank",
+          "unit": ""
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-4",
+      "name": "Long Nose Pliers 6\"",
+      "description": "Precision long nose pliers with spring-loaded action for reduced hand fatigue. Excellent for electrical work, jewelry making, and reaching tight spaces.",
+      "stock": 60,
+      "price": 9.99,
+      "brand_id": "brand-5",
+      "category_id": "cat-3",
+      "is_location_offer": false,
+      "is_rental": false,
+      "co2_rating": "B",
+      "image": "/assets/img/products/pliers01.jpeg",
+      "specs": [
+        {
+          "name": "Length",
+          "value": "6",
+          "unit": "\""
+        },
+        {
+          "name": "Material",
+          "value": "Chrome Vanadium Steel",
+          "unit": ""
+        },
+        {
+          "name": "Grip",
+          "value": "Anti-slip",
+          "unit": ""
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-6",
+      "name": "Phillips Screwdriver Set (6pc)",
+      "description": "6-piece Phillips head screwdriver set with sizes PH0 through PH4. Magnetic tips for easy screw placement. Ergonomic non-slip handles in bright orange.",
+      "stock": 80,
+      "price": 11.99,
+      "brand_id": "brand-5",
+      "category_id": "cat-4",
+      "is_location_offer": false,
+      "is_rental": false,
+      "co2_rating": "A",
+      "image": "/assets/img/products/screwdriver01.jpeg",
+      "specs": [
+        {
+          "name": "Pieces",
+          "value": "6",
+          "unit": ""
+        },
+        {
+          "name": "Sizes",
+          "value": "PH0-PH4",
+          "unit": ""
+        },
+        {
+          "name": "Handle",
+          "value": "Ergonomic non-slip",
+          "unit": ""
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-e5596a5e-7260-4ad2-b2d3-24fece891409",
+      "name": "productName",
+      "description": "This is a test product description.",
+      "stock": 49,
+      "price": 99.99,
+      "brand_id": "brand-3",
+      "category_id": "cat-6",
+      "is_rental": false,
+      "is_location_offer": false,
+      "co2_rating": "C",
+      "image": "https://placehold.co/300x200/cccccc/333333?text=productName",
+      "specs": [],
+      "created_at": "2026-06-03T04:16:08.699Z"
+    },
+    {
+      "id": "prod-16",
+      "name": "Random Orbital Sander 125mm",
+      "description": "300W random orbital sander with 125mm pad and dust collection bag. Variable speed from 7,000-12,000 OPM. Compatible with hook-and-loop sanding discs.",
+      "stock": 28,
+      "price": 49.99,
+      "brand_id": "brand-2",
+      "category_id": "cat-10",
+      "is_location_offer": false,
+      "is_rental": false,
+      "co2_rating": "C",
+      "image": "/assets/img/products/sander01.jpeg",
+      "specs": [
+        {
+          "name": "Power",
+          "value": "300",
+          "unit": "W"
+        },
+        {
+          "name": "Pad Diameter",
+          "value": "125",
+          "unit": "mm"
+        },
+        {
+          "name": "OPM Range",
+          "value": "7000-12000",
+          "unit": ""
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-24",
+      "name": "Retractable Tape Measure 8m",
+      "description": "8m/26ft retractable tape measure with standout capability of 3m. Wide blade with dual graduations (metric/imperial). Belt clip included. Shock-resistant rubber casing.",
+      "stock": 100,
+      "price": 8.99,
+      "brand_id": "brand-4",
+      "category_id": "cat-16",
+      "is_location_offer": false,
+      "is_rental": false,
+      "co2_rating": "A",
+      "image": "/assets/img/products/measure04.jpeg",
+      "specs": [
+        {
+          "name": "Length",
+          "value": "8",
+          "unit": "m"
+        },
+        {
+          "name": "Blade Width",
+          "value": "25",
+          "unit": "mm"
+        },
+        {
+          "name": "Standout",
+          "value": "3",
+          "unit": "m"
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-20",
+      "name": "Rolling Tool Cabinet 26\"",
+      "description": "26-inch 5-drawer rolling tool cabinet with ball-bearing slides and central locking. Heavy-duty steel construction. 4 castors (2 locking). 400 kg load capacity.",
+      "stock": 8,
+      "price": 249.99,
+      "brand_id": "brand-3",
+      "category_id": "cat-11",
+      "is_location_offer": false,
+      "is_rental": true,
+      "co2_rating": "E",
+      "image": "/assets/img/products/toolcabinet02.jpeg",
+      "specs": [
+        {
+          "name": "Width",
+          "value": "26",
+          "unit": "\""
+        },
+        {
+          "name": "Drawers",
+          "value": "5",
+          "unit": ""
+        },
+        {
+          "name": "Load Capacity",
+          "value": "400",
+          "unit": "kg"
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-3",
+      "name": "Rubber Mallet",
+      "description": "16oz rubber mallet with a durable white rubber head. Safe for use on wood surfaces, tiles, and soft materials without leaving marks.",
+      "stock": 40,
+      "price": 9.99,
+      "brand_id": "brand-1",
+      "category_id": "cat-2",
+      "is_location_offer": false,
+      "is_rental": false,
+      "co2_rating": "A",
+      "image": "/assets/img/products/hammer03.jpeg",
+      "specs": [
+        {
+          "name": "Weight",
+          "value": "16",
+          "unit": "oz"
+        },
+        {
+          "name": "Head Material",
+          "value": "Rubber",
+          "unit": ""
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-23",
+      "name": "Self-Leveling Laser Level",
+      "description": "Self-leveling cross-line laser level with horizontal and vertical beams. Visible up to 15m. Accurate to ±3mm at 10m. Includes tripod mount and carrying pouch.",
+      "stock": 20,
+      "price": 79.99,
+      "brand_id": "brand-4",
+      "category_id": "cat-15",
+      "is_location_offer": false,
+      "is_rental": true,
+      "co2_rating": "B",
+      "image": "/assets/img/products/measure03.jpeg",
+      "specs": [
+        {
+          "name": "Range",
+          "value": "15",
+          "unit": "m"
+        },
+        {
+          "name": "Accuracy",
+          "value": "±3",
+          "unit": "mm @ 10m"
+        },
+        {
+          "name": "Beam Type",
+          "value": "Cross-line",
+          "unit": ""
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-22",
+      "name": "Spirit Level 600mm",
+      "description": "Professional 600mm aluminum spirit level with 3 vials. Accurate to 0.5mm/m. Shock-resistant acrylic vials. Magnetic base available separately.",
+      "stock": 40,
+      "price": 19.99,
+      "brand_id": "brand-4",
+      "category_id": "cat-15",
+      "is_location_offer": false,
+      "is_rental": false,
+      "co2_rating": "A",
+      "image": "/assets/img/products/measure02.jpeg",
+      "specs": [
+        {
+          "name": "Length",
+          "value": "600",
+          "unit": "mm"
+        },
+        {
+          "name": "Accuracy",
+          "value": "0.5",
+          "unit": "mm/m"
+        },
+        {
+          "name": "Vials",
+          "value": "3",
+          "unit": ""
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-25",
+      "name": "Stud Finder with AC Detection",
+      "description": "Electronic stud finder detects wood/metal studs and live AC wires. LCD display with audio alert. Deep scan mode finds studs up to 38mm deep. 9V battery included.",
+      "stock": 35,
+      "price": 29.99,
+      "brand_id": "brand-4",
+      "category_id": "cat-14",
+      "is_location_offer": false,
+      "is_rental": false,
+      "co2_rating": "A",
+      "image": "/assets/img/products/wrench03.jpeg",
+      "specs": [
+        {
+          "name": "Scan Depth",
+          "value": "38",
+          "unit": "mm"
+        },
+        {
+          "name": "AC Detection",
+          "value": "Yes",
+          "unit": ""
+        },
+        {
+          "name": "Battery",
+          "value": "9V",
+          "unit": ""
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-d04d6566-2d63-4554-9ebb-36c91d5956ad",
+      "name": "Test Product 1780459126403",
+      "description": "This is a test product description.",
+      "stock": 50,
+      "price": 99.99,
+      "brand_id": "brand-3",
+      "category_id": "cat-6",
+      "is_rental": false,
+      "is_location_offer": false,
+      "co2_rating": "C",
+      "image": "https://placehold.co/300x200/cccccc/333333?text=Test%20Product%201780459126403",
+      "specs": [],
+      "created_at": "2026-06-03T03:58:51.616Z"
+    },
+    {
+      "id": "prod-929551ad-44ce-4411-92ba-7e36fdf46f17",
+      "name": "Test Product 1780459305459",
+      "description": "This is a test product description.",
+      "stock": 50,
+      "price": 99.99,
+      "brand_id": "brand-3",
+      "category_id": "cat-6",
+      "is_rental": false,
+      "is_location_offer": false,
+      "co2_rating": "C",
+      "image": "https://placehold.co/300x200/cccccc/333333?text=Test%20Product%201780459305459",
+      "specs": [],
+      "created_at": "2026-06-03T04:01:50.494Z"
+    },
+    {
+      "id": "prod-47babf65-c605-4633-80da-449366e188a4",
+      "name": "Test Product 1780459554055",
+      "description": "This is a test product description.",
+      "stock": 50,
+      "price": 99.99,
+      "brand_id": "brand-3",
+      "category_id": "cat-6",
+      "is_rental": false,
+      "is_location_offer": false,
+      "co2_rating": "C",
+      "image": "https://placehold.co/300x200/cccccc/333333?text=Test%20Product%201780459554055",
+      "specs": [],
+      "created_at": "2026-06-03T04:05:58.879Z"
+    },
+    {
+      "id": "prod-429baaa2-1866-4a15-8d57-500332666a65",
+      "name": "Test Product 1780459802512",
+      "description": "This is a test product description.",
+      "stock": 50,
+      "price": 99.99,
+      "brand_id": "brand-3",
+      "category_id": "cat-6",
+      "is_rental": false,
+      "is_location_offer": false,
+      "co2_rating": "C",
+      "image": "https://placehold.co/300x200/cccccc/333333?text=Test%20Product%201780459802512",
+      "specs": [],
+      "created_at": "2026-06-03T04:10:07.538Z"
+    },
+    {
+      "id": "prod-cca30621-fbe4-4a7c-b137-6c396ef15afe",
+      "name": "Test Product 1780459869666",
+      "description": "This is a test product description.",
+      "stock": 50,
+      "price": 99.99,
+      "brand_id": "brand-3",
+      "category_id": "cat-6",
+      "is_rental": false,
+      "is_location_offer": false,
+      "co2_rating": "C",
+      "image": "https://placehold.co/300x200/cccccc/333333?text=Test%20Product%201780459869666",
+      "specs": [],
+      "created_at": "2026-06-03T04:11:14.926Z"
+    },
+    {
+      "id": "prod-d521c8c1-415e-4f8b-9267-9c005a68c437",
+      "name": "Test Product 1780460088737",
+      "description": "This is a test product description.",
+      "stock": 50,
+      "price": 99.99,
+      "brand_id": "brand-3",
+      "category_id": "cat-6",
+      "is_rental": false,
+      "is_location_offer": false,
+      "co2_rating": "C",
+      "image": "https://placehold.co/300x200/cccccc/333333?text=Test%20Product%201780460088737",
+      "specs": [],
+      "created_at": "2026-06-03T04:14:53.764Z"
+    },
+    {
+      "id": "prod-f9f4ff4f-cbca-4d9b-9e3e-8601946bd02f",
+      "name": "Test Product 1780460394805",
+      "description": "This is a test product description.",
+      "stock": 50,
+      "price": 99.99,
+      "brand_id": "brand-3",
+      "category_id": "cat-6",
+      "is_rental": false,
+      "is_location_offer": false,
+      "co2_rating": "C",
+      "image": "https://placehold.co/300x200/cccccc/333333?text=Test%20Product%201780460394805",
+      "specs": [],
+      "created_at": "2026-06-03T04:19:59.898Z"
+    },
+    {
+      "id": "prod-b3a84177-b063-4b8b-8b17-ecc55e4d9aa3",
+      "name": "Test Product 1780460573029",
+      "description": "Description text",
+      "stock": 50,
+      "price": 99.99,
+      "brand_id": "brand-3",
+      "category_id": "cat-6",
+      "is_rental": false,
+      "is_location_offer": false,
+      "co2_rating": "C",
+      "image": "https://placehold.co/300x200/cccccc/333333?text=Test%20Product%201780460573029",
+      "specs": [],
+      "created_at": "2026-06-03T04:22:57.739Z"
+    },
+    {
+      "id": "prod-c6ba5898-4e3a-4198-82dd-4cb0896b40ca",
+      "name": "Test Product 1780460765180",
+      "description": "Test Description",
+      "stock": 50,
+      "price": 99.99,
+      "brand_id": "brand-3",
+      "category_id": "cat-6",
+      "is_rental": false,
+      "is_location_offer": false,
+      "co2_rating": "C",
+      "image": "https://placehold.co/300x200/cccccc/333333?text=Test%20Product%201780460765180",
+      "specs": [],
+      "created_at": "2026-06-03T04:26:09.417Z"
+    },
+    {
+      "id": "prod-eb19de9a-001b-459f-8a66-443a101f4b48",
+      "name": "Test Product 1780491684788",
+      "description": "Test Description",
+      "stock": 50,
+      "price": 99.99,
+      "brand_id": "brand-3",
+      "category_id": "cat-6",
+      "is_rental": false,
+      "is_location_offer": false,
+      "co2_rating": "C",
+      "image": "https://placehold.co/300x200/cccccc/333333?text=Test%20Product%201780491684788",
+      "specs": [],
+      "created_at": "2026-06-03T13:01:30.043Z"
+    },
+    {
+      "id": "prod-17",
+      "name": "Toolbox 20\" Steel",
+      "description": "Sturdy 20-inch steel toolbox with cantilever tray and two-tier storage. Rust-resistant powder-coat finish. Large capacity for storing hand tools and accessories.",
+      "stock": 30,
+      "price": 39.99,
+      "brand_id": "brand-3",
+      "category_id": "cat-12",
+      "is_location_offer": false,
+      "is_rental": false,
+      "co2_rating": "C",
+      "image": "/assets/img/products/toolcabinet01.jpeg",
+      "specs": [
+        {
+          "name": "Size",
+          "value": "20",
+          "unit": "\""
+        },
+        {
+          "name": "Material",
+          "value": "Steel",
+          "unit": ""
+        },
+        {
+          "name": "Capacity",
+          "value": "35",
+          "unit": "L"
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-28a64a28-76d1-4a8d-89c3-f1201dd4589b",
+      "name": "Updated Product Name By Cypress",
+      "description": "After update description",
+      "stock": 0,
+      "price": 75.25,
+      "brand_id": 1,
+      "category_id": 1,
+      "is_rental": false,
+      "is_location_offer": false,
+      "co2_rating": "C",
+      "image": "https://placehold.co/300x200/cccccc/333333?text=Original%20Product%20Name",
+      "specs": [],
+      "created_at": "2026-06-03T08:00:38.093Z"
+    },
+    {
+      "id": "prod-a3be0397-496d-4438-8fb1-d330f9f603e7",
+      "name": "Updated Product Name By Cypress",
+      "description": "After update description",
+      "stock": 0,
+      "price": 75.25,
+      "brand_id": 1,
+      "category_id": 1,
+      "is_rental": false,
+      "is_location_offer": false,
+      "co2_rating": "C",
+      "image": "https://placehold.co/300x200/cccccc/333333?text=Original%20Product%20Name",
+      "specs": [],
+      "created_at": "2026-06-03T08:02:49.502Z"
+    },
+    {
+      "id": "prod-f19a8778-5f0b-4dc4-80b3-8dfeb6483b61",
+      "name": "Updated Product Name By Cypress",
+      "description": "After update description",
+      "stock": 0,
+      "price": 75.25,
+      "brand_id": 1,
+      "category_id": 1,
+      "is_rental": false,
+      "is_location_offer": false,
+      "co2_rating": "C",
+      "image": "https://placehold.co/300x200/cccccc/333333?text=Original%20Product%20Name",
+      "specs": [],
+      "created_at": "2026-06-03T08:02:59.145Z"
+    },
+    {
+      "id": "prod-e8556b65-a0aa-4de3-93cd-35baa6a3229e",
+      "name": "Updated Product Name By Cypress",
+      "description": "After update description",
+      "stock": 0,
+      "price": 75.25,
+      "brand_id": 1,
+      "category_id": 1,
+      "is_rental": false,
+      "is_location_offer": false,
+      "co2_rating": "C",
+      "image": "https://placehold.co/300x200/cccccc/333333?text=Original%20Product%20Name",
+      "specs": [],
+      "created_at": "2026-06-03T13:01:11.746Z"
+    },
+    {
+      "id": "prod-10",
+      "name": "Utility Knife with 10 Blades",
+      "description": "Heavy-duty retractable utility knife with ergonomic rubber grip handle. Includes 10 replacement SK5 steel blades. Auto-lock blade mechanism for safety.",
+      "stock": 90,
+      "price": 7.99,
+      "brand_id": "brand-1",
+      "category_id": "cat-1",
+      "is_location_offer": false,
+      "is_rental": false,
+      "co2_rating": "A",
+      "image": "/assets/img/products/fasteners01.jpeg",
+      "specs": [
+        {
+          "name": "Blade Material",
+          "value": "SK5 Steel",
+          "unit": ""
+        },
+        {
+          "name": "Replacement Blades",
+          "value": "10",
+          "unit": ""
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-19",
+      "name": "Wall Mount Tool Organizer",
+      "description": "Steel wall-mount tool organizer panel (600x400mm) with 24 hooks. Powder-coated finish. Easy installation with all mounting hardware included. Great for garage organization.",
+      "stock": 25,
+      "price": 49.99,
+      "brand_id": "brand-3",
+      "category_id": "cat-11",
+      "is_location_offer": false,
+      "is_rental": false,
+      "co2_rating": "B",
+      "image": "/assets/img/products/workbench01.jpeg",
+      "specs": [
+        {
+          "name": "Dimensions",
+          "value": "600x400",
+          "unit": "mm"
+        },
+        {
+          "name": "Hooks",
+          "value": "24",
+          "unit": ""
+        },
+        {
+          "name": "Max Load",
+          "value": "30",
+          "unit": "kg"
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "prod-8",
+      "name": "Wood Chisel Set (4pc)",
+      "description": "Professional 4-piece wood chisel set with high-carbon steel blades and solid ash handles. Includes 6mm, 12mm, 19mm, and 25mm chisels. Sharp from the factory.",
+      "stock": 25,
+      "price": 29.99,
+      "brand_id": "brand-1",
+      "category_id": "cat-5",
+      "is_location_offer": false,
+      "is_rental": false,
+      "co2_rating": "B",
+      "image": "/assets/img/products/chisels01.jpeg",
+      "specs": [
+        {
+          "name": "Pieces",
+          "value": "4",
+          "unit": ""
+        },
+        {
+          "name": "Blade Sizes",
+          "value": "6, 12, 19, 25",
+          "unit": "mm"
+        },
+        {
+          "name": "Steel",
+          "value": "High-carbon",
+          "unit": ""
+        }
+      ],
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "carts": [
+    {
+      "id": "cff26950-83b4-474c-85e4-2cb596f18dba",
+      "items": [
+        {
+          "id": "9ebc7a6b-4f15-45c1-9c35-33464651c501",
+          "product_id": "prod-9",
+          "quantity": 1,
+          "discount_percentage": 0,
+          "unit_price": 16.99
+        }
+      ],
+      "created_at": "2026-06-02T15:43:59.460Z"
+    },
+    {
+      "id": "cbd29326-e6f0-490e-b7c5-0c488d9b133d",
+      "items": [
+        {
+          "id": "5cfce033-752b-470d-9e48-2eb996dc7073",
+          "product_id": "prod-9",
+          "quantity": 3,
+          "discount_percentage": 0,
+          "unit_price": 16.99
+        }
+      ],
+      "created_at": "2026-06-02T15:44:31.946Z"
+    },
+    {
+      "id": "6369f9b8-b9c1-4eed-9a32-49b1f6e1e9ec",
+      "items": [],
+      "created_at": "2026-06-02T15:45:03.532Z"
+    },
+    {
+      "id": "b1b14b02-2427-40b0-9925-a6185a48c6b9",
+      "items": [],
+      "created_at": "2026-06-02T15:55:51.576Z"
+    },
+    {
+      "id": "09ef69e2-d795-4a21-ab86-a257d06775c7",
+      "items": [
+        {
+          "id": "ca1c45f8-a9af-4e51-8984-564233c54ac6",
+          "product_id": "prod-9",
+          "quantity": 2,
+          "discount_percentage": 0,
+          "unit_price": 16.99
+        }
+      ],
+      "created_at": "2026-06-03T10:50:12.997Z"
+    },
+    {
+      "id": "11399784-8cd3-4e5c-b2ad-792346ee6942",
+      "items": [
+        {
+          "id": "e734be8c-b31b-436b-b4f8-4669a76716ea",
+          "product_id": "prod-9",
+          "quantity": 2,
+          "discount_percentage": 0,
+          "unit_price": 16.99
+        }
+      ],
+      "created_at": "2026-06-03T13:01:00.214Z"
+    },
+    {
+      "id": "5ed99692-b749-4dca-91ec-12161d83605b",
+      "items": [
+        {
+          "id": "5d7b99b9-e3d0-4185-9d16-56b61f218aa8",
+          "product_id": "prod-9",
+          "quantity": 1,
+          "discount_percentage": 0,
+          "unit_price": 16.99
+        }
+      ],
+      "created_at": "2026-06-03T13:02:23.039Z"
+    },
+    {
+      "id": "1be8ff33-a007-4661-993b-d095cc2aa89d",
+      "items": [],
+      "created_at": "2026-06-03T13:02:26.452Z"
+    },
+    {
+      "id": "69ed1e56-c36a-4584-8f33-384ee8306c72",
+      "items": [
+        {
+          "id": "5d4f0e4a-bf31-4e44-b269-6f0220b88c25",
+          "product_id": "prod-9",
+          "quantity": 3,
+          "discount_percentage": 0,
+          "unit_price": 16.99
+        }
+      ],
+      "created_at": "2026-06-03T13:02:30.738Z"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv-62cc9dd5-36c6-488a-9078-9382513cd025",
+      "user_id": "user-admin-1",
+      "invoice_number": "INV-2026-0002",
+      "invoice_date": "2026-06-03T13:01:05.410Z",
+      "billing_first_name": "",
+      "billing_last_name": "",
+      "billing_email": "",
+      "billing_address": "",
+      "billing_city": "",
+      "billing_state": "",
+      "billing_country": "",
+      "billing_postal_code": "",
+      "payment_method": "bank_transfer",
+      "payment_details": {},
+      "subtotal": 16.99,
+      "discount_amount": 0,
+      "total": 16.99,
+      "status": "SHIPPED",
+      "status_message": "Order received and awaiting processing",
+      "items": [
+        {
+          "id": "invitem-2b1b854d-8c1c-4364-8e98-3d8d5aa1efd1",
+          "product_id": "prod-9",
+          "product_name": "Adjustable Wrench 10\"",
+          "unit_price": 16.99,
+          "quantity": 1,
+          "discount_percentage": 0,
+          "line_total": 16.99
+        }
+      ],
+      "created_at": "2026-06-03T13:01:05.410Z"
+    },
+    {
+      "id": "inv-88021dee-f3b8-4de6-afb5-ff05dd1f7d9c",
+      "user_id": "user-admin-1",
+      "invoice_number": "INV-2026-0001",
+      "invoice_date": "2026-06-03T10:52:44.215Z",
+      "billing_first_name": "",
+      "billing_last_name": "",
+      "billing_email": "",
+      "billing_address": "",
+      "billing_city": "",
+      "billing_state": "",
+      "billing_country": "",
+      "billing_postal_code": "",
+      "payment_method": "bank_transfer",
+      "payment_details": {},
+      "subtotal": 16.99,
+      "discount_amount": 0,
+      "total": 16.99,
+      "status": "AWAITING_FULFILLMENT",
+      "status_message": "Order received and awaiting processing",
+      "items": [
+        {
+          "id": "invitem-341c73b5-2de9-4d98-9dd1-ff4f17254626",
+          "product_id": "prod-9",
+          "product_name": "Adjustable Wrench 10\"",
+          "unit_price": 16.99,
+          "quantity": 1,
+          "discount_percentage": 0,
+          "line_total": 16.99
+        }
+      ],
+      "created_at": "2026-06-03T10:52:44.215Z"
+    },
+    {
+      "id": "inv-5",
+      "user_id": "user-cust-3",
+      "invoice_number": "INV-2024-0005",
+      "invoice_date": "2024-04-10T11:00:00Z",
+      "billing_first_name": "Bob",
+      "billing_last_name": "Wilson",
+      "billing_email": "customer3@automationcamp.org",
+      "billing_address": "321 Pine Road",
+      "billing_city": "Austin",
+      "billing_state": "TX",
+      "billing_country": "US",
+      "billing_postal_code": "73301",
+      "payment_method": "cash_on_delivery",
+      "payment_details": {},
+      "subtotal": 64.98,
+      "discount_amount": 0,
+      "total": 64.98,
+      "status": "SHIPPED",
+      "status_message": "Ready to ship",
+      "items": [
+        {
+          "id": "invitem-5-1",
+          "product_id": "prod-21",
+          "product_name": "Digital Vernier Caliper",
+          "unit_price": 34.99,
+          "quantity": 1,
+          "discount_percentage": 0,
+          "line_total": 34.99
+        },
+        {
+          "id": "invitem-5-2",
+          "product_id": "prod-22",
+          "product_name": "Spirit Level 600mm",
+          "unit_price": 19.99,
+          "quantity": 1,
+          "discount_percentage": 0,
+          "line_total": 19.99
+        },
+        {
+          "id": "invitem-5-3",
+          "product_id": "prod-10",
+          "product_name": "Utility Knife with 10 Blades",
+          "unit_price": 7.99,
+          "quantity": 1,
+          "discount_percentage": 0,
+          "line_total": 7.99
+        }
+      ],
+      "created_at": "2024-04-10T11:00:00Z"
+    },
+    {
+      "id": "inv-4",
+      "user_id": null,
+      "invoice_number": "INV-2024-0004",
+      "invoice_date": "2024-04-01T16:45:00Z",
+      "billing_first_name": "Guest",
+      "billing_last_name": "Customer",
+      "billing_email": "guest@example.com",
+      "billing_address": "100 Guest Lane",
+      "billing_city": "New York",
+      "billing_state": "NY",
+      "billing_country": "US",
+      "billing_postal_code": "10001",
+      "payment_method": "gift_card",
+      "payment_details": {
+        "gift_card_number": "****8888"
+      },
+      "subtotal": 29.99,
+      "discount_amount": 0,
+      "total": 29.99,
+      "status": "COMPLETED",
+      "status_message": "",
+      "items": [
+        {
+          "id": "invitem-4-1",
+          "product_id": "prod-18",
+          "product_name": "Heavy Duty Tool Bag 18\"",
+          "unit_price": 34.99,
+          "quantity": 1,
+          "discount_percentage": 14,
+          "line_total": 29.99
+        }
+      ],
+      "created_at": "2024-04-01T16:45:00Z"
+    },
+    {
+      "id": "inv-3",
+      "user_id": "user-cust-2",
+      "invoice_number": "INV-2024-0003",
+      "invoice_date": "2024-03-20T09:15:00Z",
+      "billing_first_name": "John",
+      "billing_last_name": "Smith",
+      "billing_email": "customer2@automationcamp.org",
+      "billing_address": "789 Oak Avenue",
+      "billing_city": "Portland",
+      "billing_state": "OR",
+      "billing_country": "US",
+      "billing_postal_code": "97201",
+      "payment_method": "credit_card",
+      "payment_details": {
+        "card_number": "****1111",
+        "expiry": "09/25",
+        "holder": "John Smith"
+      },
+      "subtotal": 189.98,
+      "discount_amount": 0,
+      "total": 189.98,
+      "status": "AWAITING_FULFILLMENT",
+      "status_message": "Order received and awaiting processing",
+      "items": [
+        {
+          "id": "invitem-3-1",
+          "product_id": "prod-13",
+          "product_name": "Circular Saw 7-1/4\"",
+          "unit_price": 129.99,
+          "quantity": 1,
+          "discount_percentage": 0,
+          "line_total": 129.99
+        },
+        {
+          "id": "invitem-3-2",
+          "product_id": "prod-16",
+          "product_name": "Random Orbital Sander 125mm",
+          "unit_price": 49.99,
+          "quantity": 1,
+          "discount_percentage": 0,
+          "line_total": 49.99
+        },
+        {
+          "id": "invitem-3-3",
+          "product_id": "prod-10",
+          "product_name": "Utility Knife with 10 Blades",
+          "unit_price": 7.99,
+          "quantity": 1,
+          "discount_percentage": 10,
+          "line_total": 7.19
+        }
+      ],
+      "created_at": "2024-03-20T09:15:00Z"
+    },
+    {
+      "id": "inv-2",
+      "user_id": "user-cust-1",
+      "invoice_number": "INV-2024-0002",
+      "invoice_date": "2024-03-05T14:00:00Z",
+      "billing_first_name": "Jane",
+      "billing_last_name": "Doe",
+      "billing_email": "customer@automationcamp.org",
+      "billing_address": "456 Main Street",
+      "billing_city": "Springfield",
+      "billing_state": "IL",
+      "billing_country": "US",
+      "billing_postal_code": "62701",
+      "payment_method": "bank_transfer",
+      "payment_details": {
+        "bank_name": "Chase Bank",
+        "account_name": "Jane Doe"
+      },
+      "subtotal": 54.98,
+      "discount_amount": 0,
+      "total": 54.98,
+      "status": "SHIPPED",
+      "status_message": "Package dispatched from warehouse",
+      "items": [
+        {
+          "id": "invitem-2-1",
+          "product_id": "prod-17",
+          "product_name": "Toolbox 20\" Steel",
+          "unit_price": 39.99,
+          "quantity": 1,
+          "discount_percentage": 0,
+          "line_total": 39.99
+        },
+        {
+          "id": "invitem-2-2",
+          "product_id": "prod-24",
+          "product_name": "Retractable Tape Measure 8m",
+          "unit_price": 8.99,
+          "quantity": 1,
+          "discount_percentage": 0,
+          "line_total": 8.99
+        }
+      ],
+      "created_at": "2024-03-05T14:00:00Z"
+    },
+    {
+      "id": "inv-1",
+      "user_id": "user-cust-1",
+      "invoice_number": "INV-2024-0001",
+      "invoice_date": "2024-02-15T10:30:00Z",
+      "billing_first_name": "Jane",
+      "billing_last_name": "Doe",
+      "billing_email": "customer@automationcamp.org",
+      "billing_address": "456 Main Street",
+      "billing_city": "Springfield",
+      "billing_state": "IL",
+      "billing_country": "US",
+      "billing_postal_code": "62701",
+      "payment_method": "credit_card",
+      "payment_details": {
+        "card_number": "****4242",
+        "expiry": "12/26",
+        "holder": "Jane Doe"
+      },
+      "subtotal": 102.97,
+      "discount_amount": 0,
+      "total": 102.97,
+      "status": "COMPLETED",
+      "status_message": "Order delivered successfully",
+      "items": [
+        {
+          "id": "invitem-1-1",
+          "product_id": "prod-11",
+          "product_name": "Cordless Drill 18V",
+          "unit_price": 89.99,
+          "quantity": 1,
+          "discount_percentage": 0,
+          "line_total": 89.99
+        },
+        {
+          "id": "invitem-1-2",
+          "product_id": "prod-6",
+          "product_name": "Phillips Screwdriver Set (6pc)",
+          "unit_price": 11.99,
+          "quantity": 1,
+          "discount_percentage": 0,
+          "line_total": 11.99
+        }
+      ],
+      "created_at": "2024-02-15T10:30:00Z"
+    }
+  ],
+  "favorites": [
+    {
+      "id": "fav-1",
+      "user_id": "user-cust-1",
+      "product_id": "prod-11",
+      "created_at": "2024-02-01T00:00:00Z"
+    },
+    {
+      "id": "fav-2",
+      "user_id": "user-cust-1",
+      "product_id": "prod-23",
+      "created_at": "2024-02-01T00:00:00Z"
+    },
+    {
+      "id": "fav-3",
+      "user_id": "user-cust-2",
+      "product_id": "prod-13",
+      "created_at": "2024-03-01T00:00:00Z"
+    },
+    {
+      "id": "fav-4",
+      "user_id": "user-cust-2",
+      "product_id": "prod-20",
+      "created_at": "2024-03-01T00:00:00Z"
+    },
+    {
+      "id": "fav-0103b8d1-9c4e-4bc2-8a32-f359321ebbc5",
+      "user_id": "user-cust-1",
+      "product_id": "prod-9",
+      "created_at": "2026-06-02T15:59:52.263Z"
+    },
+    {
+      "id": "fav-907355d5-3b2b-4a05-8e36-1d2835c1af93",
+      "user_id": "user-admin-1",
+      "product_id": "prod-9",
+      "created_at": "2026-06-03T10:55:10.376Z"
+    },
+    {
+      "id": "fav-6cfecab3-66ad-4de5-8e2f-50cf8f885a55",
+      "user_id": "user-admin-1",
+      "product_id": "prod-2",
+      "created_at": "2026-06-03T12:53:09.324Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1c963939-802d-4911-9e84-8c253ca1076c",
+      "user_id": null,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "subject": "Test Subject",
+      "message": "This is a test message from Cypress.",
+      "status": "NEW",
+      "replies": [],
+      "created_at": "2026-06-02T16:02:52.819Z"
+    },
+    {
+      "id": "msg-a06aedf4-db92-4993-9d6c-c0be0618759d",
+      "user_id": null,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "subject": "Test Subject",
+      "message": "This is a test message from Cypress.",
+      "status": "NEW",
+      "replies": [],
+      "created_at": "2026-06-02T16:01:56.985Z"
+    },
+    {
+      "id": "msg-3",
+      "user_id": "user-cust-3",
+      "name": "Bob Wilson",
+      "email": "customer3@automationcamp.org",
+      "subject": "Warranty question for Cordless Drill",
+      "message": "I purchased a cordless drill 3 months ago and the battery is not holding a charge well. What is the warranty policy and how can I get a replacement?",
+      "status": "RESOLVED",
+      "replies": [
+        {
+          "id": "reply-3-1",
+          "user_id": "user-admin-1",
+          "message": "Hi Bob, all our power tools come with a 2-year warranty. Please send the drill to our service center with your proof of purchase and we will replace the battery free of charge.",
+          "created_at": "2024-04-12T11:00:00Z"
+        }
+      ],
+      "created_at": "2024-04-11T08:00:00Z"
+    },
+    {
+      "id": "msg-2",
+      "user_id": null,
+      "name": "Alice Brown",
+      "email": "alice@example.com",
+      "subject": "Product availability question",
+      "message": "Hello, I'm interested in purchasing the Rolling Tool Cabinet but it shows low stock. Do you have plans to restock soon? Also, do you offer bulk discounts for orders of 5+?",
+      "status": "NEW",
+      "replies": [],
+      "created_at": "2024-04-05T10:30:00Z"
+    },
+    {
+      "id": "msg-1",
+      "user_id": "user-cust-1",
+      "name": "Jane Doe",
+      "email": "customer@automationcamp.org",
+      "subject": "Order delay inquiry",
+      "message": "Hi, I placed an order (INV-2024-0002) two weeks ago and the status still shows 'Shipped'. Could you provide an update on when I can expect delivery? Thank you.",
+      "status": "IN_PROGRESS",
+      "replies": [
+        {
+          "id": "reply-1-1",
+          "user_id": "user-admin-1",
+          "message": "Hi Jane, thank you for reaching out. We have confirmed with our shipping partner that your package will arrive within 2-3 business days. We apologize for the delay!",
+          "created_at": "2024-03-18T09:00:00Z"
+        }
+      ],
+      "created_at": "2024-03-17T15:00:00Z"
+    },
+    {
+      "id": "msg-189e84ff-787f-4b9b-8ea2-429cd31bd724",
+      "user_id": null,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "subject": "Test Subject",
+      "message": "This is a test message from Cypress.",
+      "status": "NEW",
+      "replies": [],
+      "created_at": "2026-06-03T13:01:54.871Z"
+    }
+  ]
+}
